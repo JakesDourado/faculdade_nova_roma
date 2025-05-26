@@ -2,6 +2,19 @@
 
 Este projeto é um sistema administrativo completo, desenvolvido em React com backend simulado via JSON Server. Possui controle de acesso por perfil (administrador e funcionário), cadastro e gestão de categorias, produtos, usuários, fornecedores, clientes e vendas.
 
+## Requisitos do sistema
+
+- **Node.js** (versão 18 ou superior)
+- **npm** (gerenciador de pacotes do Node, geralmente já vem com o Node.js)
+- **Git** (para clonar o repositório)
+- **Navegador moderno** (Google Chrome, Firefox, Edge, etc.)
+
+### Bibliotecas e ferramentas utilizadas
+- [React](https://react.dev/) (frontend)
+- [Vite](https://vitejs.dev/) (build e dev server)
+- [React Router DOM](https://reactrouter.com/) (roteamento SPA)
+- [JSON Server](https://github.com/typicode/json-server) (API fake para persistência dos dados)
+
 ## Passo a passo para rodar o projeto
 
 ### 1. Baixar o projeto
