@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "email": "funcionario@example.com",
+      "password": "func123",
+      "role": "funcionario"
+    }
+  ],
+  "categorias": [
+    {
+      "nome": "Bebida",
+      "descricao": "",
+      "id": "7bf1"
+    }
+  ],
+  "produtos": [
+    {
+      "categoriaId": "7bf1",
+      "nome": "Coca cola",
+      "quantidade": "0",
+      "valor": "10",
+      "id": "1e2f"
+    }
+  ],
+  "usuarios": [
+    {
+      "nome": "Paulo Dias",
+      "telefone": "8199999999",
+      "email": "paulo@gmail.com",
+      "id": 1
+    }
+  ],
+  "fornecedores": [
+    {
+      "nome": "FNR",
+      "cnpj": "09087678000154",
+      "id": 1
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "Cliente Exemplo",
+      "telefone": "11999999999",
+      "email": "cliente@exemplo.com",
+      "id": 1
+    },
+    {
+      "nome": "Maria",
+      "telefone": "51123456789",
+      "email": "maria@gmail.com",
+      "id": 2
+    }
+  ],
+  "vendas": [
+    {
+      "clienteId": "2",
+      "categoriaId": "7bf1",
+      "produtoId": "1e2f",
+      "quantidade": "1",
+      "id": 1,
+      "status": "vendido"
+    },
+    {
+      "clienteId": "2",
+      "categoriaId": "7bf1",
+      "produtoId": "1e2f",
+      "quantidade": "2",
+      "id": 2,
+      "status": "vendido"
+    },
+    {
+      "clienteId": "2",
+      "categoriaId": "7bf1",
+      "produtoId": "1e2f",
+      "quantidade": "1",
+      "id": 3,
+      "status": "vendido"
+    }
+  ]
+}
